@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.appposto"
+    namespace = "com.example.postofinder"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.appposto"
+        applicationId = "com.example.postofinder"
         minSdk = 19
         targetSdk = 34
         versionCode = 1
@@ -49,4 +49,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+
 }

@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AppPosto"
+rootProject.name = "PostoFinder"
 include(":app")
  
